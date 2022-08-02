@@ -64,7 +64,6 @@ function App() {
           type="text"
           placeholder="Digitar Pesquisa"
           onChange={(event) => setInput(event.target.value)}
-          
         />
         <button
           onClick={() => {

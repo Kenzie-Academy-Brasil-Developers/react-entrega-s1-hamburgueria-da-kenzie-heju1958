@@ -12,6 +12,12 @@ export const ContainerCart = styled.div`
     border-radius: 0.8rem;
     margin: 0.5rem;
   }
+  @media (min-width: 1024px) {
+    img {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
   p {
     width: 4rem;
     font-weight: 600;
@@ -39,7 +45,10 @@ export const ContainerCart = styled.div`
   }
   @media (min-width: 1024px) {
     button {
-      left: 42rem;
+      left: 0rem;
+      width: 3rem;
+      height: 2rem;
+      font-size: 0.6rem;
     }
   }
   @media (min-width: 1440px) {
