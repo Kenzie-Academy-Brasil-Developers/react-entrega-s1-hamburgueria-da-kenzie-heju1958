@@ -21,7 +21,12 @@ function App() {
   const [filteredProducts, setFilteredProducts] = useState([]);
   const showProducts = () => {
     if (filteredProducts) {
-      const productInput = products.filter((elem) => input === elem.name);
+      const seach = input.toLocaleLowerCase();
+      const productInput = products.filter(
+        (elem) =>
+          elem.name.toLowerCase().includes(seach) ||
+          elem.category.toLowerCase().includes(seach)
+      );
       setFilteredProducts(productInput);
     }
   };
