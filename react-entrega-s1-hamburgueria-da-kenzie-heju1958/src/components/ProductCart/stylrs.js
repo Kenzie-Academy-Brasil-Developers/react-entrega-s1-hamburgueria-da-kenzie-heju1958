@@ -57,6 +57,12 @@ export const ContainerCart = styled.div`
       left: 1rem;
     }
   }
+  @media (min-width: 1920px) {
+    button {
+      position: relative;
+      left: 6rem;
+    }
+  }
 `;
 
 export const CategoryCart = styled.p`

@@ -21,4 +21,8 @@ export const Lista = styled.ul`
     justify-content: flex-start;
     margin-left: 4rem;
   }
+  @media (min-width: 1920px) {
+     width: 60%;
+     margin-left: 7rem;
+    }
 `;

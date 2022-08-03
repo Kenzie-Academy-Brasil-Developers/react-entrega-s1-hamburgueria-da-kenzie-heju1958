@@ -12,7 +12,10 @@ export const ContainerAll = styled.div`
     right: 4rem;
     margin: 0;
   }
-
+  @media (min-width: 1920px) {
+    width: 20vw;
+    right: 8rem;
+  }
 `;
 export const ContainerCard = styled.div`
   overflow-y: scroll;
@@ -29,7 +32,7 @@ export const CartName = styled.p`
   font-weight: 600;
   border-top-left-radius: 0.7rem;
   border-top-right-radius: 0.7rem;
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     padding: 2% 10%;
   }
 `;

@@ -13,20 +13,20 @@ export const Header = styled.header`
     height: 5rem;
   }
   @media (min-width: 425px) {
-    img{
+    img {
       left: 9rem;
     }
   }
   @media (min-width: 768px) {
-   img{
-    left: 20rem;
-   }
+    img {
+      left: 20rem;
+    }
   }
   @media (min-width: 1024px) {
-   img{
-    top: 2rem;
-    left: 8rem;
-   }
+    img {
+      top: 2rem;
+      left: 8rem;
+    }
   }
   input {
     position: absolute;
@@ -40,27 +40,32 @@ export const Header = styled.header`
     padding: 0.5rem;
   }
   @media (min-width: 425px) {
-    input{
+    input {
       width: 88%;
     }
   }
   @media (min-width: 768px) {
-   input{
-    width: 50%;
-    left: 12rem;
-   }
-  }
-  @media (min-width: 1024px) {
-   input{
-    width: 20%;
-    top: 1rem;
-    left: 42rem;
-   }
-   @media (min-width: 1440px) {
-    input{
-      left: 63rem;
+    input {
+      width: 50%;
+      left: 12rem;
     }
   }
+  @media (min-width: 1024px) {
+    input {
+      width: 20%;
+      top: 1rem;
+      left: 42rem;
+    }
+    @media (min-width: 1440px) {
+      input {
+        left: 63rem;
+      }
+    }
+    @media (min-width: 1920px) {
+      input {
+        left: 87rem;
+      }
+    }
   }
   button {
     position: absolute;
@@ -75,14 +80,14 @@ export const Header = styled.header`
     cursor: pointer;
   }
   @media (min-width: 768px) {
-   button{
-    right: 11.5rem;
-   }
+    button {
+      right: 11.5rem;
+    }
   }
   @media (min-width: 1024px) {
-   button{
-    top: 1.6rem;
-    right: 8.6rem;
-   }
+    button {
+      top: 1.6rem;
+      right: 8.6rem;
+    }
   }
 `;
