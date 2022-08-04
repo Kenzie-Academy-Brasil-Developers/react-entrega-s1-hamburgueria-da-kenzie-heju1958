@@ -65,18 +65,20 @@ function App() {
       />
       <Header>
         <img src="./logo.png" alt="logo" />
-        <input
-          type="text"
-          placeholder="Digitar Pesquisa"
-          onChange={(event) => setInput(event.target.value)}
-        />
-        <button
-          onClick={() => {
-            showProducts();
-          }}
-        >
-          Pesquisar
-        </button>
+        <div>
+          <input
+            type="text"
+            placeholder="Digitar Pesquisa"
+            onChange={(event) => setInput(event.target.value)}
+          />
+          <button
+            onClick={() => {
+              showProducts();
+            }}
+          >
+            Pesquisar
+          </button>
+        </div>
       </Header>
       <ProductsList
         products={products}
